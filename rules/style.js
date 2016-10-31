@@ -204,7 +204,7 @@ module.exports = {
   // enforce line breaks between braces
   // http://eslint.org/docs/rules/object-curly-newline
   "object-curly-newline": [2, {
-  "ObjectExpression": { "minProperties": 5, "multiline": true },
+    "ObjectExpression": { "minProperties": 5, "multiline": true },
     "ObjectPattern": { "minProperties": 5, "multiline": true }
   }],
 
