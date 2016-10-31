@@ -30,7 +30,14 @@ module.exports = {
   "no-undefined": 2,
 
   // disallow declaration of variables that are not used in the code
-  "no-unused-vars": [2, { "vars": "local", "args": "after-used" }],
+  // WARNING: We ignore React because "import React, { Component }"
+  // triggers the rule for React (seems that react/jsx-uses-react is not
+  // doing its job
+  "no-unused-vars": [2, {
+    "vars": "local",
+    "args": "after-used",
+    "varsIgnorePattern": "React",
+  }],
 
   // disallow use of variables before they are defined
   "no-use-before-define": [2, { "functions": false, "classes": false }],
