@@ -23,6 +23,15 @@ Add the  ESLint config in your `package.json`:
 }
 ```
 
+or create an `.eslintrc` file in the project:
+
+```
+{
+  "extends": "trabe"
+}
+```
+
+
 Test the linter running `$ npm run lint`.
 
 ### How to overwrite rules
@@ -37,6 +46,18 @@ Rules can be overriden/extended. Just add your own after extending form the trab
   }
 }
 ```
+
+or in the `.eslintrc`:
+
+```
+{
+  "extends": "trabe",
+  "rules": {
+    "comma-dangle": [1]
+  }
+}
+```
+
 
 ## Contributing
 
