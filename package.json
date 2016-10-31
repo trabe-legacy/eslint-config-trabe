@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-trabe",
+  "version": "0.0.1",
+  "description": "The Trabe ESLint config!",
+  "main": "index.js",
+  "author": "Trabe",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "7.0.0",
+    "eslint": "3.8.1",
+    "eslint-find-rules": "1.14.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-react": "6.4.1"
+  }
+}
