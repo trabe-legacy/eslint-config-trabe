@@ -27,13 +27,10 @@ module.exports = {
     amd: false,
   },
 
-  ecmaFeatures: {
-    jsx: true,
-  },
-
   settings: {
     "import/resolver": {
       node: {
+        paths: ["./src/"],
         extensions: [".js", ".jsx", ".json"],
       },
     },
