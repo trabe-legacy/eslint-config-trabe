@@ -171,7 +171,6 @@ module.exports = {
   // http://eslint.org/docs/rules/no-restricted-syntax
   "no-restricted-syntax": [
     2,
-    "DebuggerStatement",
     "ForInStatement",
     "LabeledStatement",
     "WithStatement",
