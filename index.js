@@ -1,6 +1,4 @@
 module.exports = {
-  installedESLint: true,
-
   parser: "babel-eslint",
 
   parserOptions: {

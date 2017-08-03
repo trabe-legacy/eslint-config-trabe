@@ -65,6 +65,14 @@ This project defines a set of ESLint rules tailored to the Trabe team tastes but
 and feel that some rule may change, feel free to add an issue to the project and engage in a healthy
 debate ;)
 
+
+## Changelog
+
+### v0.0.6
+
+* Removed `installedESLINT` config. eslint 4.x does not like it.
+
+
 ## TODO
 
 * Add eslint-plugin-mocha :D
