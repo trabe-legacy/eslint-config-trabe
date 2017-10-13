@@ -68,6 +68,10 @@ debate ;)
 
 ## Changelog
 
+### v0.0.7
+
+* Update deps
+
 ### v0.0.6
 
 * Removed `installedESLINT` config. eslint 4.x does not like it.
@@ -77,3 +81,4 @@ debate ;)
 
 * Add eslint-plugin-mocha :D
 * Write "the" styleguide /(ºoº)\
+* Fix the dependencies mess
